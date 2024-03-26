@@ -38,6 +38,6 @@ sudo cp configuraciones/*.conf /etc/httpd/conf.d/
 
 # Clonando el proyecto de Javalin-demo e iniciando la aplicación, escuchando en el puerto 7000
 cd ~/
-git clone https://github.com/vacax/javalin-demo/ && cd javalin-demo && bash start.sh &
+git clone https://github.com/JuanAlfonso11/parcial-2 && cd parcial-2 && bash start.sh &
 curl localhost:7000
 echo "Script completado!..."
