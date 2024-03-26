@@ -39,11 +39,11 @@ printf "<h1>Sitio Aplicacion #2</h1>" | sudo tee /var/www/html/app2/index.html
 
 # Clonando el proyecto ORM y moviendo a la carpeta descargada.
 cd ~/
-git clone https://github.com/vacax/orm-jpa
-cd orm-jpa
+git clone https://github.com/JuanAlfonso11/parcial-2
+cd parcial-2
 
 # Ejecutando la creación de fatjar
 ./gradlew shadowjar
 
 # Subiendo la aplicación puerto por defecto.
-java -jar ~/orm-jpa/build/libs/app.jar > ~/orm-jpa/build/libs/salida.txt 2> ~/orm-jpa/build/libs/error.txt &
+java -jar ~/parcial-2/build/libs/app.jar > ~/parcial-2/build/libs/salida.txt 2> ~/parcial-2/build/libs/error.txt &
